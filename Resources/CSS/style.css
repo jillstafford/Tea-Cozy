@@ -1,0 +1,55 @@
+/* Overall Document Styles */
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+h1 {
+  font-family: cursive;
+}
+
+a:link {
+  color: inherit;
+}
+
+/* Container Display Details */
+header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+span {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.logo{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10px;
+  height: 50px;
+}
+
+/* Top Section (our mission) details */
+
+/* Middle Section (tea of month) details */
+
+/* Bottom Section (locations) details */
+
+/* Footer and Copyright details */
