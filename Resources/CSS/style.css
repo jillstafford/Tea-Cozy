@@ -6,7 +6,8 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
-
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -61,11 +62,11 @@ span {
 .container {
   display: flex;
   position: relative;
+  top: 70px;
   flex-direction: column;
   z-index: 1;
   justify-content: center;
   align-items: center;
-  padding-top: 70px;
 }
 
 .top-section {
@@ -86,23 +87,8 @@ span {
 /* Middle Section (tea of month) details */
 .tea-container {
   display: flex;
-  justify-content: center;
-}
-
-.tea-images {
-  display: inline-flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 1000px;
-}
-
-.tom {
-  width: 300px;
-  height: 200px;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding-bottom: 10px;
-  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .tom-text {
@@ -111,9 +97,25 @@ span {
   padding-top: 45px;
 }
 
-figcaption {
+.tea-images {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+  padding-bottom: 70px;
+}
+
+.tom {
+  width: 300px;
+  height: 200px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-flex;
+  margin-bottom: 0px;
+}
+
+p {
   text-align: center;
-  padding-bottom: 20px;
 }
 
 /* Bottom Section (locations) details */
@@ -123,7 +125,8 @@ figcaption {
   height: 500px;
   width: 1200px;
   justify-content: space-around;
-  position:relative;
+  flex-direction: column;
+  align-items: center;
 }
 
 .locations-content {
@@ -149,5 +152,16 @@ figcaption {
   opacity: 1;
 }
 
-
 /* Footer and Copyright details */
+footer {
+  display: flex;
+  padding-top: 80px;
+  height: 200px;
+  align-content: center;
+  flex-direction: column;
+}
+
+.foot-content {
+  text-align: center;
+  width: 1200px;
+}
